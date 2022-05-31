@@ -10,6 +10,7 @@ public class JDBCConnection {
     static int id;
     static String deptName,loc;
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
+        System.out.println("i have also updated few things pls update and then start");
         JdbcConnection();
         loginTest(deptName,loc);
     }
@@ -41,6 +42,7 @@ public class JDBCConnection {
             }
         }
          finally{
+
             rs.close();
             st.close();
             con.close();
